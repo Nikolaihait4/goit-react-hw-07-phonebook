@@ -1,0 +1,44 @@
+/* ContactList.module.css */
+
+.listContainer {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Тень */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.listUl {
+  list-style: none;
+  padding: 0;
+}
+
+.listLi {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.listTitle {
+  font-size: 18px;
+  color: #333;
+}
+
+.listPhone {
+  font-size: 16px;
+  color: #555;
+}
+
+.listDelete {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.listDelete:hover {
+  background-color: #dd0000;
+}
